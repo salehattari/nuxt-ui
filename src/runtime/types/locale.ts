@@ -116,7 +116,7 @@ export type Messages = {
       copy: string
     }
   }
-  repeater: {
+  repeater?: {
     dragToReorder: string
     moveUp: string
     moveDown: string
